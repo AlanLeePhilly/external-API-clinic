@@ -3,7 +3,6 @@ import DeviceToggle from '../components/dashboard/DeviceToggle';
 import MapContainer from './MapContainer';
 import SpottyContainer from './SpottyContainer';
 
-
 class Dashboard extends React.Component {
   constructor(props) {
     super(props);
@@ -16,7 +15,6 @@ class Dashboard extends React.Component {
   handleChange(device){
     this.setState({ device })
   }
-  
 
   render() {
     let selectedDevice 
